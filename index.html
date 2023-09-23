@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>index.html</index></title>
+</head>
+<body>
+    <div class="headBar">
+        Student Portal     
+    </div>
+    <div class="searchBar">
+        <input type="text" class="search" id="search" placeholder="Search" >
+        <button class="searchButton" id="button">Search</button>
+    </div>
+    <div class="sortBar">
+        <button type="reset" class="button" id="sortAZ" >Sort A->Z</button>
+        <button type="reset" class="button" id="sortZA" >Sort Z->A</button>
+        <button type="reset" class="button" id="sortMarks" >Sort By Marks</button>
+        <button type="reset" class="button" id="sortPass" >Sort By Passing</button>
+        <button type="reset" class="button" id="sortClass" >Sort By Class</button>
+        <button type="reset" class="button" id="sortGender" >Sort By Gender</button>
+    </div>
+    <table class="Table">
+        <thead>
+    <tr>   
+            <th>ID</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Marks</th>
+            <th>Passing</th>
+            <th>Email</th>
+    </tr> 
+        </thead>
+        <tbody id="tbody">
+    <!-- <tr>
+        <td>1</td>
+        <td>2xcvb</td>
+        <td>3sdfgh</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        
+    </tr> -->
+        </tbody>
+    </table>
+    <script src="javasrc.js" ></script>
+</body>
+</html>
